@@ -19,7 +19,7 @@ public class Words {
         Collections.addAll(words,"издание", "будущее", "союз", "общение", "пункт", "зуб", "голос", "мир",
                 "издание", "будущее", "зуб", "впечатление", "издание", "союз", "будущее", "зуб", "страсть",
                 "союз", "издание", "пункт");
-        System.out.printf("Количество уникальных слов из массива: %s %n", words.stream().distinct().count()); // изучил статью Stream API и выбрал данный подход.
+        System.out.printf("Количество уникальных слов из массива: %s %n", words.stream().distinct().count()); //  изучил статью Stream API и выбрал данный подход.
         System.out.printf("Уникальные слова: %s %n", words.stream().distinct().collect(Collectors.toList()));
         }
 }
