@@ -26,7 +26,7 @@ public class PhoneBook {
         PhoneBook.add("Зайчиков", "+7(111)0000143");
         PhoneBook.add("Горшков", "+7(777)0770189");
 
-        PhoneBook.get("Сидоров"); // вводя ключ получаем значение из HashMap через метод get() класса PhoneBook;
+        PhoneBook.get("Сидоров");  // вводя ключ получаем значение из HashMap через метод get() класса PhoneBook;
         PhoneBook.get("Попов");
         PhoneBook.get("Зайчиков");
         PhoneBook.get("Бубенков");
